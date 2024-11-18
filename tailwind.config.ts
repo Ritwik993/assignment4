@@ -14,6 +14,7 @@ export default {
       },
       fontFamily: {
         nexa: ['"Nexa Bold"', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
     },
   },

@@ -22,8 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` bg-[#09061A]  overflow-x-hidden relative w-[100vw]`}> 
-          <Image src="/background blur.png" width={1140} height={462} alt="" className='object-cover absolute top-[-200px] left-0 right-0 w-full '/>
+      <body className={` bg-[#09061A]  overflow-x-hidden relative font-montserrat`}> 
+          <Image src="/background blur.png" width={1140} height={462} alt="" className='object-cover absolute top-0 left-0 right-0 w-full h-[100vh] border border-white'/>
         <div className="containerbox">
           <Navbar />
           <main className=''>      
